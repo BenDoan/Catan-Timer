@@ -40,6 +40,7 @@ $(document).ready(function(){
 
     var hammertime = Hammer(document.getElementsByTagName("body")[0]).on("tap", function(event) {
         totalSeconds = 0;
+        setTime(0);
         vib();
     });
 });
