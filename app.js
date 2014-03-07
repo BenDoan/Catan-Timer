@@ -1,7 +1,4 @@
-//window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
-
 var height = document.documentElement.clientHeight;
-var width = document.documentElement.clientWidth;
 
 var totalSeconds = 0;
 
@@ -33,7 +30,6 @@ setInterval(function(){
 }, 1000);
 
 $(document).ready(function(){
-
     $("body").css("background-color", "#000");
     $("body").css("height", height);
     $("#time").fitText(.5);
